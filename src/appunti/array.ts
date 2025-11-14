@@ -7,8 +7,8 @@
 
 const array = [9, 2, 12, 5, 100];
 
-let i = Number(prompt("Indice (0-4):"));
-let v = Number(prompt("Nuovo valore:"));
+const i = Number(prompt("Indice (0-4):"));
+const v = Number(prompt("Nuovo valore:"));
 
 array[i] = v;
 
